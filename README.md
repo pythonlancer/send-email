@@ -122,13 +122,6 @@ MIT License
 
 ---
 
-## 🤝 Contributions
-
-Pull requests are welcome.  
-For major changes, open an issue first to discuss your ideas.
-
----
-
 ## ⚠️ Disclaimer
 
 Use responsibly.  
