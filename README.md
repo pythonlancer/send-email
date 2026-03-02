@@ -1,4 +1,4 @@
-# Python 3.x Mass Email Blast Tool
+# Simple Python 3.x Mass Email Blast Tool
 
 A powerful and scalable **mass email automation tool** built with Python 3.x.  
 Designed for bulk outreach, newsletters, and campaign-based email distribution with efficiency and control.
@@ -12,7 +12,6 @@ This project enables users to:
 - Send bulk emails securely
 - Personalize messages dynamically
 - Manage recipient lists
-- Attach files
 - Track delivery logs
 - Configure SMTP settings easily
 
@@ -27,10 +26,8 @@ Built for developers, marketers, and automation enthusiasts who need a flexible,
 
 ### 📦 Python Libraries
 - `smtplib` – SMTP email sending
-- `ssl` – Secure encrypted connections
 - `email` – MIME message formatting
 - `csv` – Recipient list management
-- `argparse` – CLI argument handling
 - `logging` – Activity and error logging
 - `os` – File handling
 - `dotenv` – Environment variable management
@@ -60,7 +57,6 @@ Built for developers, marketers, and automation enthusiasts who need a flexible,
 
 - Bulk email sending
 - HTML + Plain text support
-- File attachments
 - Personalization using CSV fields
 - Configurable SMTP providers (Gmail, Outlook, custom SMTP)
 - Rate limiting (optional)
@@ -90,7 +86,7 @@ SMTP_PORT=587
 ### 3️⃣ Run the Script
 
 ```bash
-python main.py --recipients recipients.csv --template templates/email_template.html
+python email_sender.py
 ```
 
 ---
