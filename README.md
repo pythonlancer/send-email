@@ -57,7 +57,7 @@ Built for developers, marketers, and automation enthusiasts who need a flexible,
 
 - Bulk email sending
 - HTML + Plain text support
-- Personalization using CSV fields
+- Personalization using CSV fields (Remember to change this to your list)
 - Configurable SMTP providers (Gmail, Outlook, custom SMTP)
 - Rate limiting (optional)
 - Logging system for tracking delivery status
